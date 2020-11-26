@@ -21,14 +21,14 @@ body {
 }
 
 .cell {
-    display: grid;
+    display: flex;
     width: 100px;
     height: 100px;
     background-color: #c4c4c4;
     margin: 1px;
     font-size: 42px;
-    text-align:center;
     justify-content: center;
+    align-items: center;
 }
 
 #a1:hover, #a2:hover, #a3:hover, #a4:hover, #a5:hover, #a6:hover, #a7:hover, #a8:hover, #a9:hover {
@@ -46,5 +46,6 @@ body {
     letter-spacing: 0.1em;
     margin: auto;
     margin-top:32px;
+    font-family : 'Avenir' ; 
+    font-size : 24px
 }
-
