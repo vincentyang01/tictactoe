@@ -9,13 +9,14 @@
     grid-template-columns: repeat(3, auto);
 }
 
-.square {
+.cell {
     display: grid;
     width: 100px;
     height: 100px;
     background-color: #c4c4c4;
     margin: 2px;
     padding: 4px;
+    font-size: 42px;
 }
 
 #a1:hover, #a2:hover, #a3:hover, #a4:hover, #a5:hover, #a6:hover, #a7:hover, #a8:hover, #a9:hover {
@@ -28,8 +29,8 @@
     background-color: #2d4558;
     border-radius: 2px;
     color: #fff;
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.1em;
 }
+
