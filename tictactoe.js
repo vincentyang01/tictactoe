@@ -1,9 +1,3 @@
-const container = document.querySelector('.container');
-const board = document.querySelector('.board');
-
-
-// let board = ["", "", "", "", "", "", "", "", ""];
-const classes = ["x", "o"]
 let player1 = []
 let player2 = []
 let turnCount = 0
